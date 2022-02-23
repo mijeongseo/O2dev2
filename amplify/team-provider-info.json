@@ -9,7 +9,8 @@
       "UnauthRoleName": "amplify-o2dev-dev-145407-unauthRole",
       "StackName": "amplify-o2dev-dev-145407",
       "StackId": "arn:aws:cloudformation:ap-northeast-2:555489277508:stack/amplify-o2dev-dev-145407/0698dc30-946d-11ec-b44a-023836e54d7e",
-      "AmplifyAppId": "d1zcfbbl407t87"
+      "AmplifyAppId": "d1zcfbbl407t87",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-o2dev-dev-145407-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
     },
     "categories": {
       "hosting": {
@@ -25,11 +26,15 @@
           "webClientId": "705ok68tqndgu3pbvu7tl09skt",
           "nativeClientId": "705ok68tqndgu3pbvu7tl09skt"
         },
-        "o2dev551723a8": {
-          "userPoolId": "ap-northeast-2_y4wZQKBEm",
-          "userPoolName": "nst-earthpaper",
-          "webClientId": "705ok68tqndgu3pbvu7tl09skt",
-          "nativeClientId": "705ok68tqndgu3pbvu7tl09skt"
+        "o2dev664b5126": {}
+      },
+      "function": {
+        "o2dev664b5126CustomMessage": {
+          "REDIRECTURL": "https://main.d1zcfbbl407t87.amplifyapp.com/",
+          "EMAILSUBJECT": "[Earthpaper] Email verification",
+          "EMAILMESSAGE": "Please click the [{##link#}] to continue logging in.",
+          "deploymentBucketName": "amplify-o2dev-dev-145407-deployment",
+          "s3Key": "amplify-builds/o2dev664b5126CustomMessage-32306a322b2b4e504232-build.zip"
         }
       }
     }

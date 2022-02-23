@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "o2dev664b5126",
+  "functionName": "o2dev664b5126CustomMessage",
+  "resourceName": "o2dev664b5126CustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "o2dev664b5126CustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "https://o2.naraspacetechnology.com/",
+  "EMAILSUBJECT": "mimiseo@naraspace.com",
+  "EMAILMESSAGE": "Please click the [{##link#}] to continue logging in.",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}
