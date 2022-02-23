@@ -25,7 +25,12 @@
           "webClientId": "705ok68tqndgu3pbvu7tl09skt",
           "nativeClientId": "705ok68tqndgu3pbvu7tl09skt"
         },
-        "o2dev430ab3a1": {}
+        "o2dev551723a8": {
+          "userPoolId": "ap-northeast-2_y4wZQKBEm",
+          "userPoolName": "nst-earthpaper",
+          "webClientId": "705ok68tqndgu3pbvu7tl09skt",
+          "nativeClientId": "705ok68tqndgu3pbvu7tl09skt"
+        }
       }
     }
   }
