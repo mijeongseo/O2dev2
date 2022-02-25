@@ -1,11 +1,11 @@
 {
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "type": "cicd"
+    }
+  },
   "auth": {
-    "o2dev": {
-      "userPoolId": "ap-northeast-2_y4wZQKBEm",
-      "userPoolName": "nst-earthpaper",
-      "webClientId": "705ok68tqndgu3pbvu7tl09skt",
-      "nativeClientId": "705ok68tqndgu3pbvu7tl09skt"
-    },
     "o2dev3ae09c42": {
       "service": "Cognito",
       "serviceType": "imported",
@@ -14,10 +14,5 @@
       "customAuth": false
     }
   },
-  "hosting": {
-    "amplifyhosting": {
-      "service": "amplifyhosting",
-      "type": "cicd"
-    }
-  }
+  "function": {}
 }
