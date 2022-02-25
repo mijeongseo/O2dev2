@@ -7,12 +7,17 @@ import wrapper from 'store';
 
 import { QueryClient, QueryClientProvider, Hydrate } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
-import Amplify, { Auth } from 'aws-amplify';
+import Amplify from 'aws-amplify';
 import awsmobile from '@src/aws-exports';
 
-Amplify.configure({ ...awsmobile, ssr: true });
+Amplify.configure({
+  ...awsmobile,
+  userPoolId: 'ap-northeast-2_y4wZQKBEm',
+  webClientId: '705ok68tqndgu3pbvu7tl09skt',
+  ssr: true,
+});
 
-Auth.configure(awsmobile);
+// Auth.configure(awsmobile);
 
 function App({ Component, pageProps }: AppProps) {
   const queryClientRef = useRef<QueryClient>();
