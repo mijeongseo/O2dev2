@@ -7,10 +7,12 @@ import wrapper from 'store';
 
 import { QueryClient, QueryClientProvider, Hydrate } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
-import Amplify from 'aws-amplify';
+import Amplify, { Auth } from 'aws-amplify';
 import awsmobile from '@src/aws-exports';
 
 Amplify.configure({ ...awsmobile, ssr: true });
+
+Auth.configure(awsmobile);
 
 function App({ Component, pageProps }: AppProps) {
   const queryClientRef = useRef<QueryClient>();
