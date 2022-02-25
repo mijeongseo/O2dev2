@@ -26,15 +26,11 @@
           "webClientId": "705ok68tqndgu3pbvu7tl09skt",
           "nativeClientId": "705ok68tqndgu3pbvu7tl09skt"
         },
-        "o2dev664b5126": {}
-      },
-      "function": {
-        "o2dev664b5126CustomMessage": {
-          "REDIRECTURL": "https://main.d1zcfbbl407t87.amplifyapp.com/",
-          "EMAILSUBJECT": "[Earthpaper] Email verification",
-          "EMAILMESSAGE": "Please click the [{##link#}] to continue logging in.",
-          "deploymentBucketName": "amplify-o2dev-dev-145407-deployment",
-          "s3Key": "amplify-builds/o2dev664b5126CustomMessage-32306a322b2b4e504232-build.zip"
+        "o2dev3ae09c42": {
+          "userPoolId": "ap-northeast-2_y4wZQKBEm",
+          "userPoolName": "nst-earthpaper",
+          "webClientId": "705ok68tqndgu3pbvu7tl09skt",
+          "nativeClientId": "705ok68tqndgu3pbvu7tl09skt"
         }
       }
     }
